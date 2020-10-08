@@ -8,13 +8,13 @@ class App extends Component {
 
         //Goa(India),Amsterdam(Netherlands),New York(USA),Darjeeling(India),Tokyo(Japan),Lonavala(India)
 
-        const cities = [`Goa(India)`,`Darjeeling(India)`,`Lonavala(India)`]//,`Amsterdam(Netherlands)`,`New York(USA)`,`Tokyo(Japan)`];
+        const cities = [`Goa(India)`,`Darjeeling(India)`,`Lonavala(India)`,`Amsterdam(Netherlands)`,`New York(USA)`,`Tokyo(Japan)`];
 
 
         return(
            <>
            <ol>
-        {cities.map((city,index) => <li key={city}>{city}</li>)}
+        {cities.map((city,index) => <li key="location"{city}>{city}</li>)}
 //write your code here
             </ol>
 	</>
