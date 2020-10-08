@@ -8,7 +8,7 @@ class App extends Component {
 
         //Goa(India),Amsterdam(Netherlands),New York(USA),Darjeeling(India),Tokyo(Japan),Lonavala(India)
 
-        const cities = [`Goa(India)`,`Amsterdam(Netherlands)`,`New York(USA)`,`Darjeeling(India)`,`Tokyo(Japan)`,`Lonavala(India)`];
+        const cities = [`Goa(India)`,`Darjeeling(India)`,`Lonavala(India)`]//,`Amsterdam(Netherlands)`,`New York(USA)`,`Tokyo(Japan)`];
 
 
         return(
